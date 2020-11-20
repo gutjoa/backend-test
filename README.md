@@ -1,4 +1,4 @@
-## Backend Test: Desafío Envíame
+### Backend Test: Desafío Envíame
 
 El siguiente desafío busca conocer más como abordas y solucionas diferentes problemas. El desafío consta de 4 etapas, las cuales evaluaremos de manera independiente.
 
@@ -14,8 +14,8 @@ El contenedor de la base de datos debe ser diferente al que contenga tu aplicaci
 ### Ejercicio 2: API REST + CRUD
 
 Dentro del ambiente dockerizado desarrolla una API Rest, con el stack de tu preferencia, que implemente un CRUD de una entidad tipo 'empresa'. Preocupate de incluir: 
-* Un endpoint que permita listar todos los registros.
-* Crea una función que genere al menos 10 registros con datos Random (puedes usar alguna librería que genere datos faker) a partir de la estructura de respuesta que obtuviste en el punto anterior. Permite que esta función sea accesible mediante un endpoint de tu API.
+
+Además del CRUD hacer un script que genere N registros con datos "fake" (utilizando una librería faker).
 
 ### Ejercicio 3: Análisis + Desarrollo 
 
@@ -27,8 +27,31 @@ Crea un script en el lenguaje de tu elección y encuentra la cadena de texto que
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://drive.google.com/file/d/17svdMNqTu2ZQ4XOm4jVVKQ8uEccFdHDc/view=)
 
+### Ejercicio 5: Análisis + Desarrollo
+La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1.`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
 
-### Ejercicio 5: Análisis + Desarrollo Aplicado a Negocio
+Ahora, consideremos los divisores de estos términos:
+
+```text
+1 = 1
+1 = 1
+2 = 1, 2
+3 = 1, 3
+5  = 1, 5
+8 = 1, 2, 4, 8
+13 = 1, 13
+21 = 1, 3, 7, 21
+34 = 1, 2, 17, 34
+55 = 1, 5, 11, 55
+89 = 1, 89
+144 = 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72, 144
+```
+
+Como se puede ver, 144 es el primer número de la serie de Fibonacci que tiene más de 10 divisores (de hecho tiene 15).
+Crea un script en tu lenguaje favorito que obtenga el primer número de Fibonacci que tiene más de 1000 divisores.
+
+
+### Ejercicio 6: Análisis + Desarrollo Aplicado a Negocio
 Desarrolla una función o procedimiento que estime el tiempo de entrega de la entrega de una compra online (en días), en función de la distancia que existe entre una dirección de origen y destino.
 
 Suponga que los envíos siempre se despachan desde el mismo origen.
@@ -44,13 +67,7 @@ Asuma que el tiempo de despacho está determinado por una suseción numérica, d
 ...
 * Rango n. Menos de n km, Los días de entrega se calculan como la suma de los días de entrega de los rangos n–1 y n-2
 
-La ayuda: 
-El cálculo de del término n se puede deducir de una serie matemática descrita como sigue:
-f(0) = 0;
-f(1) = 1;
-fn = f(n-1) + f(n-2)
-
-### Ejercicio 6: SQL
+### Ejercicio 7: SQL
 -- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual de la región a la que pertenecen
 
 CREATE TABLE `countries` (
