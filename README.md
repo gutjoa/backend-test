@@ -6,29 +6,29 @@ El siguiente desafío busca conocer más como abordas y solucionas diferentes pr
 
 En caso de preguntas dirigete a: *tech-test@enviame.io*, usando el asunto [Backend-Test]
 
-#### Ejercicio 1: Docker
+### Ejercicio 1: Docker
 
 Configura un ambiente en docker que permita ejecutar un entorno web con el stack a tu elección. 
 El contenedor de la base de datos debe ser diferente al que contenga tu aplicación, ej: Contenedor 1: Nginx, Contenedor 2: Mysql (composición de servicios docker)
 
-#### Ejercicio 2: API REST + CRUD
+### Ejercicio 2: API REST + CRUD
 
 Dentro del ambiente dockerizado desarrolla una API Rest, con el stack de tu preferencia, que implemente un CRUD de una entidad tipo 'empresa'. Preocupate de incluir: 
 * Un endpoint que permita listar todos los registros.
 * Crea una función que genere al menos 10 registros con datos Random (puedes usar alguna librería que genere datos faker) a partir de la estructura de respuesta que obtuviste en el punto anterior. Permite que esta función sea accesible mediante un endpoint de tu API.
 
-#### Ejercicio 3: Análisis + Desarrollo 
+### Ejercicio 3: Análisis + Desarrollo 
 
 Crea un script en el lenguaje de tu elección y encuentra la cadena de texto que es igual al revés en el siguiente texto:
 
 `afoolishconsistencyisthehobgoblinoflittlemindsadoredbylittlestatesmenandphilosophersanddivineswithconsistencyagreatsoulhassimplynothingtodohemayaswellconcernhimselfwithhisshadowonthewallspeakwhatyouthinknowinhardwordsandtomorrowspeakwhattomorrowthinksinhardwordsagainthoughitcontradicteverythingyousaidtodayahsoyoushallbesuretobemisunderstoodisitsobadthentobemisunderstoodpythagoraswasmisunderstoodandsocratesandjesusandlutherandcopernicusandgalileoandnewtonandeverypureandwisespiritthatevertookfleshtobegreatistobemisunderstood`
 
-#### Ejercicio 4: Consumo API Envíame para la creación de un envío
+### Ejercicio 4: Consumo API Envíame para la creación de un envío
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://drive.google.com/file/d/17svdMNqTu2ZQ4XOm4jVVKQ8uEccFdHDc/view=)
 
 
-#### Ejercicio 5: Análisis + Desarrollo Aplicado a Negocio
+### Ejercicio 5: Análisis + Desarrollo Aplicado a Negocio
 Desarrolla una función o procedimiento que estime el tiempo de entrega de la entrega de una compra online (en días), en función de la distancia que existe entre una dirección de origen y destino.
 
 Suponga que los envíos siempre se despachan desde el mismo origen.
