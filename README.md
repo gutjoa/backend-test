@@ -28,7 +28,7 @@ Desarrolla una función o script que consuma la API Envíame para la creación d
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://drive.google.com/file/d/17svdMNqTu2ZQ4XOm4jVVKQ8uEccFdHDc/view=)
 
 ### Ejercicio 5: Análisis + Desarrollo
-La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1.`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
+La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
 
 Ahora, consideremos los divisores de estos términos:
 
@@ -57,7 +57,7 @@ Desarrolla una función o procedimiento que estime el tiempo de entrega de la en
 Suponga que los envíos siempre se despachan desde el mismo origen.
 
 Para la determinación de la distancia entre el origen y destino genere números aleatorios entre 0 km y 2.000 km
-Asuma que el tiempo de despacho está determinado por una suseción numérica, donde cada N término se relaciona con un incremento en un rango de distancia entre la dirección de origen y de destino como se muesta a continuación.
+Asuma que el tiempo de despacho está determinado por una sucesión numérica, donde cada N término se relaciona con un incremento en un rango de distancia entre la dirección de origen y de destino como se muesta a continuación.
 
 * Rango 1. Menos de 100 km, se entregan el mismo día (Día cero) 
 * Rango 2. Menos de 200 km, se entregan al día siguiente (Día uno)
@@ -68,7 +68,7 @@ Asuma que el tiempo de despacho está determinado por una suseción numérica, d
 * Rango n. Menos de n km, Los días de entrega se calculan como la suma de los días de entrega de los rangos n–1 y n-2
 
 ### Ejercicio 7: SQL
--- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual de la región a la que pertenecen
+-- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual del continente al que pertenecen
 
 CREATE TABLE `countries` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
