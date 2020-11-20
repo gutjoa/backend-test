@@ -68,7 +68,7 @@ Asuma que el tiempo de despacho está determinado por una sucesión numérica, d
 * Rango n. Menos de n km, Los días de entrega se calculan como la suma de los días de entrega de los rangos n–1 y n-2
 
 ### Ejercicio 7: SQL
--- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual del continente al que pertenecen
+-- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual del continente al que pertenecen.
 
 CREATE TABLE `countries` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
