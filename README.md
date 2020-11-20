@@ -1,6 +1,6 @@
 ### Backend Test: Desafío Envíame
 
-El siguiente desafío busca conocer más como abordas y solucionas diferentes problemas. El desafío consta de 4 etapas, las cuales evaluaremos de manera independiente.
+El siguiente desafío, busca conocer más respecto a tus habilidades técnicas para abordar y solucionar diferentes problemas. El desafío consta de 7 etapas, las cuales, evaluaremos de manera independiente.
 
 **Asegurate de dejar tu trabajo en un repositorio de github y al finalizar tu tarea nos compartes el repositorio donde deben incluirse todas las instrucciones para que podamos ejecutar tu trabajo de manera local**
 
