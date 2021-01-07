@@ -25,7 +25,7 @@ Crea un script en el lenguaje de tu elección y encuentra la cadena de texto que
 
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
-Documentación (Postman) del endpoint a usar: [Colección Postman](https://drive.google.com/file/d/17svdMNqTu2ZQ4XOm4jVVKQ8uEccFdHDc/view=)
+Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
 
 ### Ejercicio 5: Análisis + Desarrollo
 La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
