@@ -4,6 +4,9 @@ El siguiente desafío, busca conocer más respecto a tus habilidades técnicas p
 
 **Asegurate de dejar tu trabajo en un repositorio de github y al finalizar tu tarea nos compartes el repositorio donde deben incluirse todas las instrucciones para que podamos ejecutar tu trabajo de manera local.**
 
+#### Importante: ####
+Los lenguajes a utilizar pueden ser: php, python, node.js
+
 En caso de preguntas dirigete a: *tech-test@enviame.io*, usando el asunto [Backend-Test]
 
 ### Ejercicio 1: Docker
