@@ -14,6 +14,6 @@ app.use(bodyParser.json());
 app.use('/api', apiRouter);
 
 
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log("server start");
 })
