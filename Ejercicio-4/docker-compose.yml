@@ -1,6 +1,16 @@
 version: "3.7"
 
 services: 
+    node:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      container_name: ejercicio4_node
+      volumes:
+        - .:/src
+      command: node index
+      ports:
+        - "3000:3000"
     mysql:
       image: mysql:5.7
       container_name: ejercicio4-db

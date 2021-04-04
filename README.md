@@ -1,22 +1,34 @@
 ### Backend Test: Desafío Envíame
 
-El siguiente desafío, busca conocer más respecto a tus habilidades técnicas para abordar y solucionar diferentes problemas. El desafío consta de 7 etapas, las cuales, evaluaremos de manera independiente.
-
-**Asegurate de dejar tu trabajo en un repositorio de github y al finalizar tu tarea nos compartes el repositorio donde deben incluirse todas las instrucciones para que podamos ejecutar tu trabajo de manera local.**
-
-#### Importante: ####
-**Los lenguajes a utilizar pueden ser: php, python, node.js**
-
-En caso de preguntas dirigete a: *tech-test@enviame.io*, usando el asunto [Backend-Test]
-
 ### Ejercicio 1: Docker
 
 Configura un ambiente en docker que permita ejecutar un entorno web con el stack a tu elección. 
 El contenedor de la base de datos debe ser diferente al que contenga tu aplicación, ej: Contenedor 1: Nginx, Contenedor 2: Mysql (composición de servicios docker)
 
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-1` por medio de 
+
+```sh 
+  cd Ejercicio-1
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-1/README.md)
+
 ### Ejercicio 2: API REST + CRUD
 
-Dentro del ambiente dockerizado desarrolla una API Rest, con el stack de tu preferencia, que implemente un CRUD de una entidad tipo 'empresa'. Preocupate de incluir un script que genere N registros con datos "fake" (utilizando una librería faker).
+Dentro del ambiente dockerizado desarrolla una API Rest, con el stack de tu preferencia, que implemente un CRUD de una entidad tipo 'empresa'. Preocupate de incluir un script que genere N registros con datos "fake" (utilizando una librería faker)
+
+
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-2` por medio de 
+
+```sh 
+  cd Ejercicio-2
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-2/README.md)
 
 ### Ejercicio 3: Análisis + Desarrollo 
 
@@ -24,9 +36,31 @@ Crea un script en el lenguaje de tu elección y encuentre la(s) cadena de texto 
 
 `afoolishconsistencyisthehobgoblinoflittlemindsadoredbylittlestatesmenandphilosophersanddivineswithconsistencyagreatsoulhassimplynothingtodohemayaswellconcernhimselfwithhisshadowonthewallspeakwhatyouthinknowinhardwordsandtomorrowspeakwhattomorrowthinksinhardwordsagainthoughitcontradicteverythingyousaidtodayahsoyoushallbesuretobemisunderstoodisitsobadthentobemisunderstoodpythagoraswasmisunderstoodandsocratesandjesusandlutherandcopernicusandgalileoandnewtonandeverypureandwisespiritthatevertookfleshtobegreatistobemisunderstood`
 
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-3` por medio de 
+
+```sh 
+  cd Ejercicio-3
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-3/README.md)
+
+
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
+
+
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-4` por medio de 
+
+```sh 
+  cd Ejercicio-4
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-4/README.md)
 
 ### Ejercicio 5: Análisis + Desarrollo
 La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
@@ -51,6 +85,16 @@ Ahora, consideremos los divisores de estos términos:
 Como se puede ver, 144 es el primer número de la serie de Fibonacci que tiene más de 10 divisores (de hecho tiene 15).
 Crea un script en tu lenguaje favorito que obtenga el primer número de Fibonacci que tiene más de 1000 divisores.
 
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-5` por medio de 
+
+```sh 
+  cd Ejercicio-5
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-5/README.md)
+
 
 ### Ejercicio 6: Análisis + Desarrollo Aplicado a Negocio
 Desarrolla una función o procedimiento que estime el tiempo de entrega de la entrega de una compra online (en días), en función de la distancia que existe entre una dirección de origen y destino.
@@ -67,6 +111,16 @@ Asuma que el tiempo de despacho está determinado por una sucesión numérica, d
 * Rango 5. Menos de 500 km, se entregan al tercer día (Día tres)
 ...
 * Rango n. Menos de n km, Los días de entrega se calculan como la suma de los días de entrega de los rangos n–1 y n-2
+
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-6` por medio de 
+
+```sh 
+  cd Ejercicio-6
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-6/README.md)
 
 ### Ejercicio 7: SQL
 -- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual del continente al que pertenecen.
@@ -126,3 +180,12 @@ insert into employees values (null, 10, 'Takumi', 'Fujiwara', 5000);
 insert into employees values (null, 11, 'Heung-min', 'Son', 5100);
 insert into employees values (null, 12, 'Peter', 'Johnson', 6100);
 
+### Respuesta
+
+Dirigirse a la carpeta `Ejercicio-7` por medio de 
+
+```sh 
+  cd Ejercicio-7
+``` 
+
+y seguir las instruciones del [README.md](Ejercicio-7/README.md)
